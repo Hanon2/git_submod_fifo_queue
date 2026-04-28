@@ -2,7 +2,7 @@
 ==========================================
               Queue Implementation
 ==========================================
- * queue.h
+ * fifo_queue.h
  * 
  * A simple implementation of a circular buffer FIFO queue.
  *
@@ -13,8 +13,8 @@
  * with enqueue and dequeue operations.
  */
 
-#ifndef QUEUE_H
-#define QUEUE_H
+#ifndef FIFO_QUEUE_H
+#define FIFO_QUEUE_H
 
 #include <stdbool.h>
 #include <stdint.h>
